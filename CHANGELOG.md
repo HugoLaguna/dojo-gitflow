@@ -1,3 +1,9 @@
+#### 1.0.2 (2021-04-28)
+
+##### Bug Fixes
+
+*  fix name ([f7f76fc2](https://github.com/HugoLaguna/dojo-gitflow/commit/f7f76fc2fe95cc330a6130e320ec0609fa2db012))
+
 #### 1.0.1 (2021-04-28)
 
 ##### Documentation Changes
