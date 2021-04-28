@@ -1,11 +1,14 @@
 {
   "name": "dojo-gitflow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dojo Gitflow",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "bash update-build-io.sh"
+    "update": "bash update-build-io.sh",
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --patch && git push origin && git push origin --tags"
   },
   "repository": {
     "type": "git",
