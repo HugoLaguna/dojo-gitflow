@@ -1,0 +1,19 @@
+{
+  "name": "dojo-gitflow",
+  "version": "1.0.0",
+  "description": "Dojo Gitflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoLaguna/dojo-gitflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoLaguna/dojo-gitflow/issues"
+  },
+  "homepage": "https://github.com/HugoLaguna/dojo-gitflow#readme"
+}
