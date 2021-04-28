@@ -4,7 +4,8 @@
   "description": "Dojo Gitflow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "bash update-build-io.sh"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HugoLaguna/dojo-gitflow/issues"
   },
-  "homepage": "https://github.com/HugoLaguna/dojo-gitflow#readme"
+  "homepage": "https://github.com/HugoLaguna/dojo-gitflow#readme",
+  "devDependencies": {
+    "generate-changelog": "^1.8.0"
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "name": "store",
+  "vendor": "experimentality",
+  "version": "0.1.2",
+  "title": "Store Angular on CMS",
+  "description": "Store Angular on CMS",
+  "builders": {
+    "checkout-ui-custom": "0.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
