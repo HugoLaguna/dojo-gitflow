@@ -1,6 +1,6 @@
 {
   "name": "dojo-gitflow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dojo Gitflow",
   "main": "index.js",
   "scripts": {
